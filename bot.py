@@ -4,10 +4,7 @@ import time
 
 browser = uc.Chrome()
 
-username = 'zakijamaliarafi'
-password = 'zaki1745'
-
-def login():
+def login(username, password):
     browser.get('https://google.com')
     browser.find_element(By.CSS_SELECTOR, '.gb_1').click()
     time.sleep(3)
@@ -20,4 +17,4 @@ def login():
     browser.find_element(By.CSS_SELECTOR, '.VfPpkd-LgbsSe-OWXEXe-k8QpJ > span:nth-child(4)').click()
     time.sleep(10)
 
-login()
+login('naruto1745uzumaki', 'arafi1745')
