@@ -26,10 +26,10 @@ view = 1
 count = 0
 
 while count < view:
-    video('https://www.youtube.com/watch?v=Iem6SxpsS8s', 10)
-    video('https://www.youtube.com/watch?v=Y2cRMoh-gAY', 10)
-    video('https://www.youtube.com/watch?v=pE2j1W_QO0A', 10)
-    video('https://www.youtube.com/watch?v=Z_G_BpPzGIE', 10)
-    video('https://www.youtube.com/watch?v=VLpFgay9ZWY', 10)
-    video('https://www.youtube.com/watch?v=UFwQZ7od4tY', 10)
+    video('https://www.youtube.com/watch?v=Iem6SxpsS8s', 240)
+    video('https://www.youtube.com/watch?v=Y2cRMoh-gAY', 780)
+    video('https://www.youtube.com/watch?v=pE2j1W_QO0A', 840)
+    video('https://www.youtube.com/watch?v=Z_G_BpPzGIE', 120)
+    video('https://www.youtube.com/watch?v=VLpFgay9ZWY', 120)
+    video('https://www.youtube.com/watch?v=UFwQZ7od4tY', 180)
     count = count + 1
