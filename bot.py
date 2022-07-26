@@ -17,4 +17,19 @@ def login(username, password):
     browser.find_element(By.CSS_SELECTOR, '.VfPpkd-LgbsSe-OWXEXe-k8QpJ > span:nth-child(4)').click()
     time.sleep(10)
 
+def video(link, t):
+    browser.get(link)
+    time.sleep(t)
+
 login('naruto1745uzumaki', 'arafi1745')
+view = 1
+count = 0
+
+while count < view:
+    video('https://www.youtube.com/watch?v=Iem6SxpsS8s', 10)
+    video('https://www.youtube.com/watch?v=Y2cRMoh-gAY', 10)
+    video('https://www.youtube.com/watch?v=pE2j1W_QO0A', 10)
+    video('https://www.youtube.com/watch?v=Z_G_BpPzGIE', 10)
+    video('https://www.youtube.com/watch?v=VLpFgay9ZWY', 10)
+    video('https://www.youtube.com/watch?v=UFwQZ7od4tY', 10)
+    count = count + 1
