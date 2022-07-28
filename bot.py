@@ -21,7 +21,7 @@ def video(link, t):
     browser.get(link)
     time.sleep(t)
 
-login('naruto1745uzumaki', 'arafi1745')
+login('naruto1745uzumaki', 'zakiarafi')
 view = 1
 count = 0
 
